@@ -19,7 +19,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "typeRoots": ["./node_modules/@types", "./node_modules/@microsoft"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@microsoft",
+      "./node_modules"
+    ],
     "types": ["vitest/globals"]
   },
   "include": ["src"],
